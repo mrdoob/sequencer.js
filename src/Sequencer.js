@@ -136,6 +136,8 @@ var SequencerItem = function () {};
 
 SequencerItem.prototype = {
 
+	constructor: SequencerItem,
+
 	init: function () {},
 	load: function () {},
 	show: function ( progress ) {},
